@@ -1,16 +1,16 @@
 ########### load the trained model
 ##sleep quality model
-load("C:/Users/Reza Sadeghi/Desktop/Sleep-quality-in-caregivers-master/Sleep-quality-in-caregivers-master/Final models/Final sleep quality models.RData")
+load("Final models/Final sleep quality models.RData")
 
 ##feeling refreshed model
-#load("C:/Users/Reza Sadeghi/Desktop/Sleep-quality-in-caregivers-master/Sleep-quality-in-caregivers-master/Final models/Final feeling refreshed models.RData")
+load("Final models/Final feeling refreshed models.RData")
 
 ########### load test data
 # The address of E4 data
-root="C:\\Users\\Reza Sadeghi\\Desktop\\Sleep-quality-in-caregivers-master\\Sleep-quality-in-caregivers-master\\Examine_your_sleep_with_our_model\\";
+root="C:\Users\loo\Desktop\Data\Participant 1\Week 1";
 numberPerson = 1
-numberWeek = 2
-numberDay = 7
+numberWeek = 1
+numberDay = 1
 person=c(1:numberPerson)
 week=c(1:numberWeek)
 day=c(1:numberDay)
